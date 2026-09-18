@@ -1,0 +1,21 @@
+{
+  "name": "trackiq-amazon-inventory-ad-throttle",
+  "version": "1.0.0",
+  "description": "TrackIQ: Amazon Inventory Risk \u2192 Ad Spend Throttle \u2014 an Agent Skill for Amazon sellers, built on TrackIQ MCP data.",
+  "author": {
+    "name": "TrackIQ",
+    "url": "https://trackiq.com"
+  },
+  "homepage": "https://trackiq.com/skills/trackiq-amazon-inventory-ad-throttle",
+  "repository": "https://github.com/TrackIQ-HQ/trackiq-amazon-inventory-ad-throttle",
+  "license": "MIT",
+  "keywords": [
+    "amazon",
+    "amazon-seller",
+    "claude-skill",
+    "agent-skills",
+    "mcp",
+    "trackiq",
+    "inventory"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "trackiq-amazon-inventory-ad-throttle",
+  "title": "TrackIQ: Amazon Inventory Risk \u2192 Ad Spend Throttle",
+  "category": "inventory",
+  "version": "1.0.0",
+  "updated": "2026-09-18",
+  "summary": "Finds the Amazon campaigns still paying to advertise products that are about to run out of stock, and produces an upload-ready bulk file that throttles or pauses those ads with the real campaign, ad group and ad IDs attached \u2014 plus where the freed budget should go instead. Use when the user asks about advertising products that are out of stock, throttling ads on low inventory, wasted spend on stoc",
+  "changelog": "First public release.",
+  "requires": {
+    "mcp": [
+      "trackiq"
+    ],
+    "tools": [
+      "get_campaigns",
+      "get_inventory_snapshot",
+      "get_product_ads",
+      "get_product_performance",
+      "list_marketplaces"
+    ],
+    "filesystem": false,
+    "network": false,
+    "third_party_apis": []
+  },
+  "delivery": {
+    "methods": [
+      "in-chat",
+      "file",
+      "slack",
+      "n8n",
+      "email"
+    ],
+    "default": "in-chat",
+    "note": "in-chat always works and is the fallback. Outward sends confirm first."
+  },
+  "homepage": "https://trackiq.com/skills/trackiq-amazon-inventory-ad-throttle",
+  "license": "MIT"
+}
