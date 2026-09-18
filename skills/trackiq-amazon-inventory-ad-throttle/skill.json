@@ -4,7 +4,7 @@
   "category": "inventory",
   "version": "1.0.0",
   "updated": "2026-09-18",
-  "summary": "Finds the Amazon campaigns still paying to advertise products that are about to run out of stock, and produces an upload-ready bulk file that throttles or pauses those ads with the real campaign, ad group and ad IDs attached \u2014 plus where the freed budget should go instead. Use when the user asks about advertising products that are out of stock, throttling ads on low inventory, wasted spend on stoc",
+  "summary": "Finds the Amazon campaigns still paying to advertise products that are about to run out of stock, and produces an upload-ready bulk file that throttles or pauses those ads with the real campaign, ad group and ad IDs attached \u2014 plus where the freed budget should go instead.",
   "changelog": "First public release.",
   "requires": {
     "mcp": [
